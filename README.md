@@ -22,6 +22,6 @@ __Anyone that has access to these private keys can take any funds located within
 ## Run
 
 ```
-node hydrate.js
+node compound.js
 ```
 
