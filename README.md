@@ -8,7 +8,21 @@ In the .env file you must specify the number of tokens you wish to be available 
 
 If you are having issues with communicating with BSC, consider changing your RPC within the .env file.
 
-## Build
+## Download / clone
+
+```
+git clone https://github.com/1tchyBa11z/furio-compounder
+```
+
+
+## Edit .env file for PRIVATE_KEYS and VALUES, representing your wallet private keys and the number of FURIO you wish to compound
+```
+cd furio-compounder
+vim .env
+```
+Can use whatever text editor you prefer
+
+## Build without docker
 
 ```
 yarn build
@@ -25,3 +39,18 @@ __Anyone that has access to these private keys can take any funds located within
 node compound.js
 ```
 
+
+## Docker build
+Repeat above process of cloning repository / Alternatively click the green code button and select download as zip. Proceed to extract zip
+
+```
+cd furio-compounder
+# edit .env file, then
+docker build  . -t furio-compounder
+```
+
+## Docker run
+
+```
+docker run furio-compounder
+```

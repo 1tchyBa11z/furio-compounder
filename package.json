@@ -1,10 +1,10 @@
 {
         "name": "compounder",
         "version": "1.0.0",
-        "description": "This bot will compound your Furio accounts, it checks every 10 minutes and compounds your furio once it is over a pre-determined value",
+        "description": "This bot will compound your Furio accounts, it checks every 10 minutes and compounds your furio once it is over a pre-determined value, dockerized for multi-platform usability",
         "main": "compound.js",
         "scripts": {
-                "test": "echo \"Error: no test specified\" && exit 1"
+		"start": "node compound.js"
         },
         "author": "1tchyBa11z",
         "license": "BSD",
@@ -15,4 +15,3 @@
                 "web3": "^1.5.0"
         }
 }
-
