@@ -29,7 +29,10 @@ Repeat above process of cloning repository / Alternatively click the green code 
 
 ```
 cd furio-compounder
- edit .env file, then
+```
+
+edit .env file, then
+```
 docker build  . -t furio-compounder
 Docker run
 docker run furio-compounder
