@@ -34,7 +34,7 @@ cd furio-compounder
 edit .env file, then
 ```
 docker build  . -t furio-compounder
-Docker run
+docker run
 docker run furio-compounder
 ```
 
